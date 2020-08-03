@@ -1,0 +1,18 @@
+{
+    "name": "xiewg/fz",
+    "description": "fz",
+    "type": "project",
+    "authors": [
+        {
+            "name": "xiewg",
+            "email": "xiewg@focusspot.cn"
+        }
+    ],
+    "require": {},
+	"autoload": {
+    "psr-4": {
+        "Xwg\\Fz\\": "src/"
+    }
+}
+
+}
