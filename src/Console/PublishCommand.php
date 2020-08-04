@@ -21,5 +21,13 @@ class PublishCommand extends Command
 		
 		$this->line('publish...');
 		$this->line('hello world!!');
+		
+		$this->loadViewsFrom(__DIR__.'/views','Fz');//视图目录
+        $this->publishes([
+            __DIR__.'/views' => base_path('resources/views/vendor/fz'),//发布视图目录到resources下
+            __DIR__.'/config/fz.php' => config_path('fz.php'),//发布配置文件到laravel的config目录下
+        ]);
+		
+		$this->line('OK!!');
     }
 }
