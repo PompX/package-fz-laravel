@@ -17,6 +17,8 @@ class PublishCommand extends Command
     {
         //$options = ['--provider' => 'Xwg\Fz\FzServiceProvider'];
         //$this->call('vendor:publish', $options);
+		
+		$this->line('publish...');
 		$this->line('hello world!!');
     }
 }
