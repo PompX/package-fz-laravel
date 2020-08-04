@@ -12,6 +12,16 @@
 	"autoload": {
     "psr-4": {
         "Xwg\\Fz\\": "src/"
+    },
+	"extra": {
+        "laravel": {
+            "providers": [
+                "Xwg\\Fz\\FzServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
     }
 }
 
