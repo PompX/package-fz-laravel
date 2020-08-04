@@ -10,9 +10,10 @@
     ],
     "require": {},
 	"autoload": {
-    "psr-4": {
-        "Xwg\\Fz\\": "src/"
-    },
+		"psr-4": {
+			"Xwg\\Fz\\": "src/"
+		},
+	},
 	"extra": {
         "laravel": {
             "providers": [
@@ -23,6 +24,5 @@
             }
         }
     }
-}
 
 }
