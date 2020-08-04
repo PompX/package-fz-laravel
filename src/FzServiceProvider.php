@@ -3,6 +3,7 @@
 namespace Xwg\Fz;
 
 use Illuminate\Support\ServiceProvider;
+use Xwg\Fz\Console\PublishCommand;
 
 class FzServiceProvider extends ServiceProvider
 {
