@@ -1,5 +1,6 @@
 <?php
 
+namespace Xwg\Fz\Console;
 use Illuminate\Console\Command;
 
 class PublishCommand extends Command
